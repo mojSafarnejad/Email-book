@@ -1,0 +1,135 @@
+.avthead{
+    font-family: Oswald;
+    
+     animation: Color 7s linear infinite;
+    -webkit-animation: Color 7s ease-in-out infinite;
+    text-shadow: 10px 10px #F0F0F0;
+  }
+  
+  @keyframes Color{
+    0%{
+      color:#94aaf3;
+    }
+    
+    20%{
+      color:#5970f1;
+    }
+    
+    40%{
+      color:#3d5ce7;
+    }
+    
+    60%{
+      color:#2024eb;
+    }
+    
+    80%{
+      color:#302eaa;
+    }
+    
+    100%{
+      color:#3a3470;
+    }
+  }
+  
+  @-moz-keyframes Color{
+    0%{
+        color:#94aaf3;
+      }
+      
+      20%{
+        color:#5970f1;
+      }
+      
+      40%{
+        color:#3d5ce7;
+      }
+      
+      60%{
+        color:#2024eb;
+      }
+      
+      80%{
+        color:#302eaa;
+      }
+      
+      100%{
+        color:#3a3470;
+      }
+  }
+  
+  @-webkit-keyframes Color{
+    0%{
+        color:#94aaf3;
+      }
+      
+      20%{
+        color:#5970f1;
+      }
+      
+      40%{
+        color:#3d5ce7;
+      }
+      
+      60%{
+        color:#2024eb;
+      }
+      
+      80%{
+        color:#302eaa;
+      }
+      
+      100%{
+        color:#3a3470;
+      }
+  }
+  
+  
+  .btnConfirm{
+    font-size: 1.2em;
+  }
+
+  .glowing::before{
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    background: linear-gradient(45deg, #7681b4, #5a90e0d9, #135574, #321cad, #bd63e7, #a15cf0, #6512b9, #1ae1f0de, #5aabde);
+    background-size: 400%;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    z-index: -1;
+    animation: glower 20s linear infinite;
+  }
+  
+  @keyframes glower {
+    0% {
+      background-position: 0 0;
+    }
+    
+    50% {
+      background-position: 400% 0;
+    }
+    
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
